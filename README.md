@@ -4,13 +4,13 @@
 - 
 
 ## Design Team:
-- 
+- Mihai
 - Cris
 
 ## Front-End Team:
-- 
+- Mihai
 - Cris
 
 ## Back-End Team:
-- 
+- Mihai
 - Cris
