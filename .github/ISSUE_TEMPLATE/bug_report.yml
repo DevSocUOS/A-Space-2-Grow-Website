@@ -1,0 +1,98 @@
+name: Report a Problem
+description: Report a problem
+title: "[Bug]: "
+labels: ["bug"]
+assignees: CrisCorreaS
+body:
+  - type: markdown
+    attributes:
+      value: "# Prerequisites"
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Check the prerequisites you meet
+      description: |
+        Make sure you meet these prerequisites before reporting a problem
+      options:
+        - label: I am running the latest version.
+          required: true
+        - label: |
+            I have checked if a similar issue already exists.
+          required: true
+  - type: markdown
+    attributes:
+      value: "# Behaviour"
+  - type: textarea
+    id: expected-behaviour
+    attributes:
+      label: Expected behaviour
+      description: Describe the expected behaviour of the issue
+      placeholder: This feature should ...
+  - type: textarea
+    id: actual-behaviour
+    attributes:
+      label: Actual behaviour
+      description: Describe the actual behaviour of the issue
+      placeholder: This feature does ...
+  - type: markdown
+    attributes:
+      value: "# Information"
+  - type: textarea
+    id: bug-information
+    attributes:
+      label: Bug information
+      description: Provide information about the bug
+      placeholder: This bug happens when ...
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Steps required to reproduce the bug
+      placeholder: |
+        1. Step1
+        2. Step2
+  - type: markdown
+    attributes:
+      value: "# Context"
+  - type: dropdown
+    id: affected-browsers
+    attributes:
+      label: Which browsers are affected?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Opera
+        - All browsers
+  - type: input
+    id: browser-version
+    attributes:
+      label: Browser version
+      description: Browser version in which the issue occurs
+      placeholder: Chrome v124.0.6367.92 ...
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating system
+      description: Operating system in which the issue occurs
+      multiple: true
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Android
+        - All systems
+  - type: markdown
+    attributes:
+      value: "# Additional Information"
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Add any additional information if needed
+      description: Images, code link, code snippet ...
+      placeholder: |
+        ```public class ... "..."
+        ```
+        ...

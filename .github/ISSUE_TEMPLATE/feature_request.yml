@@ -1,0 +1,21 @@
+name: Feature Proposal
+description: Suggest an improvement or feature for the project
+title: "[Feat]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "## Prerequisites"
+  - type: markdown
+    attributes:
+      value: |
+        Before suggesting a feature, please check for [existing features](https://github.com/CrisCorreaS/TomaTe/issues)
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Description
+      description: Description of the feature you would like to see added
+      placeholder: |
+        It would be great if the project had ...
+    validations:
+      required: true
