@@ -6,10 +6,12 @@
 ## Design Team:
 - Mihai
 - Cris
+- Phyu Sin Mon
 
 ## Front-End Team:
 - Mihai
 - Cris
+- Phyu Sin Mon
 
 ## Back-End Team:
 - Mihai
