@@ -7,12 +7,13 @@
 - Mihai
 - Cris
 - Phyu Sin Mon
+- Sarah
 
 ## Front-End Team:
 - Mihai
 - Cris
 - Phyu Sin Mon
-
+- Sarah
 ## Back-End Team:
 - Mihai
 - Cris
