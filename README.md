@@ -18,5 +18,5 @@
 - Cris
 - Christiana
 
-##Database Team
+## Database Team: 
 - Christiana
