@@ -18,6 +18,8 @@
 - Mihai
 - Cris
 - Christiana
+- Aung Ko Min
 
 ## Database Team: 
 - Christiana
+- Aung Ko Min
