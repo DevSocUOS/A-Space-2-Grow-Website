@@ -16,3 +16,7 @@
 ## Back-End Team:
 - Mihai
 - Cris
+- Christiana
+
+##Database Team
+- Christiana
