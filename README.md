@@ -9,6 +9,7 @@
 - Phyu Sin Mon
 - Sarah
 - Michaela
+- Aung Ko Min
 
 ## Front-End Team:
 - Mihai
