@@ -53,7 +53,8 @@ A Space 2 Grow is open to contributions, but I recommend creating an issue or re
 8. Push changes to your new branch, run `git push -u origin MA-001/Feat/Sign-Up-Form`.
 9. Create a pull request to the `dev-frontend` or `dev-backend` branch NOT `main`.
 10. Ensure to describe your pull request.
-11. > If you've added code that should be tested, add some test examples.
+
+> If you've added code that should be tested, add some test examples.
 
 # Merging
 
