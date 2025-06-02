@@ -14,11 +14,13 @@
 - Cris
 - Phyu Sin Mon
 - Sarah
+- Anas Shafiq
 ## Back-End Team:
 - Mihai
 - Cris
 - Christiana
 - Aung Ko Min
+- Anas Shafiq
 
 ## Database Team: 
 - Christiana
