@@ -16,6 +16,7 @@
 - Cris
 - Phyu Sin Mon
 - Sarah
+- Anas Shafiq
 - Michaela
 
 ## Back-End Team:
@@ -23,6 +24,7 @@
 - Cris
 - Christiana
 - Aung Ko Min
+- Anas Shafiq
 
 ## Database Team: 
 - Christiana
