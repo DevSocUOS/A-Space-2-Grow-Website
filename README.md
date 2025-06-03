@@ -10,6 +10,7 @@
 - Sarah
 - Michaela
 - Aung Ko Min
+- Ru'a Ahmad
 
 ## Front-End Team:
 - Mihai
