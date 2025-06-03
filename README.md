@@ -2,6 +2,7 @@
 ## Architecture Team:
 - Cris
 - Michaela
+- Mihai
 
 ## Design Team:
 - Mihai
