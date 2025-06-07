@@ -1,4 +1,12 @@
 # A Space 2 Grow Website
+## To run this Project Locally
+
+1. **Clone the repository**
+2. **Install dependencies with** `bun install`
+3. **Start the development server** `bun run dev`
+4. **See the website in a Browser with** `http://localhost:5173/`
+
+
 ## Architecture Team:
 - Cris
 - Michaela
