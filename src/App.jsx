@@ -9,6 +9,9 @@ import GetInvolved from "./pages/GetInvolved";
 import MeetTheTeam from "./pages/MeetTheTeam";
 import SupportUs from "./pages/SupportUs";
 import Login from "./pages/Login"
+import Dashboard from "./pages/Dashboard";
+import Register from "./pages/Register";
+
 
 // TODO: Add Register and Dashboard + their Supabase Auth Wrapper
 // TODO: Add Helmet for Page-Specific Metadata
@@ -31,6 +34,8 @@ const App = () => {
         <Route path="/team" element={<MeetTheTeam />} />
         <Route path="/support-us" element={<SupportUs />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/register" element={<Register />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
 
