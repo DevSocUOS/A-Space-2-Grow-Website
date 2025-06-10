@@ -15,7 +15,6 @@ import Register from "./pages/Register";
 
 
 // TODO: Add Register and Dashboard + their Supabase Auth Wrapper
-// TODO: Add Helmet for Page-Specific Metadata
 
 const App = () => {
   const location = useLocation();
