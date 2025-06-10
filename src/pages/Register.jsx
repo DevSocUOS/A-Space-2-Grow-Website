@@ -1,10 +1,15 @@
 import React from 'react'
+import Seo from '../components/Seo'
 
 const Register = () => {
   return (
-    <main>
-      <h1>Register</h1>
-    </main>
+    <>
+        <Seo title="Register" path  ="/register"/>
+        
+        <main>
+            <h1>Register</h1>
+        </main>
+    </>
   )
 }
 

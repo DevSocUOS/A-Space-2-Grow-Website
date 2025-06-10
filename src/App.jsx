@@ -1,4 +1,5 @@
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -25,7 +26,6 @@ const App = () => {
   return (
     <>
       {!hideHeaderFooter && <Header />}
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
@@ -34,6 +34,7 @@ const App = () => {
         <Route path="/team" element={<MeetTheTeam />} />
         <Route path="/support-us" element={<SupportUs />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/meet-the-team" element={<MeetTheTeam />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/register" element={<Register />} />
         <Route path="*" element={<Navigate to="/" replace />} />

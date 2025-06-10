@@ -1,10 +1,15 @@
 import React from 'react'
+import Seo from '../components/Seo'
 
 const ContactUs = () => {
   return (
-    <main>
-      <h1>Contact Us</h1>
-    </main>
+    <>
+      <Seo title="Contact Us" path="/contact" />
+
+      <main>
+        <h1>Contact Us</h1>
+      </main>
+    </>
   )
 }
 
