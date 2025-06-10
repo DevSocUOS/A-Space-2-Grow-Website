@@ -1,6 +1,8 @@
+import React from 'react'
 import { useState } from "react";
 import supabase from "../helper/supabaseClient";
 import { useNavigate } from "react-router-dom";
+import Seo from "../components/Seo";
 
 function Login() {
   const navigate = useNavigate();
@@ -30,6 +32,10 @@ function Login() {
   };
 
   return (
+
+  <>
+    <Seo title="Login" path="/login" />
+    
     <main className="flex items-center justify-center min-h-screen bg-gradient-to-br from-slate-100 to-slate-200 px-4">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-xl p-8">
         <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Log In to Your Account</h2>
@@ -78,6 +84,8 @@ function Login() {
         </form>
       </div>
     </main>
+
+  </>
   );
 }
 

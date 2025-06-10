@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Seo from '../components/Seo';
 
-const Home = () => {
+export default function Home() {
   return (
-    <main>
-      <h1>Home</h1>
-    </main>
-  )
-}
+    <>
+      <Seo title="Home" path="/" />
 
-export default Home
+      <main>
+        <h1>Home</h1>
+      </main>
+    </>
+  );
+}
