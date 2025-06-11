@@ -72,7 +72,7 @@ A Space 2 Grow is open to contributions, but I recommend creating an issue or re
 
 1. Clone the repo `git clone https://github.com/DevSocUOS/A-Space-2-Grow-Website.git`.
 2. Open your terminal & set the origin branch: `git remote add origin https://github.com/DevSocUOS/A-Space-2-Grow-Website.git`
-3. Pull origin `git pull origin dev`
+3. Pull origin `git pull origin dev-frontend` or `dev-backend`
 4. Create a new branch for the task you were assigned to, eg `YourInitials-IssueNumber/(Feat/Bug/Fix/Chore)/Ticket-title` : `git checkout -b MA-001/Feat/Sign-Up-Form`
 5. After making changes, do `git add .`
 6. Commit your changes with a descriptive commit message : `git commit -m "your commit message"`.
