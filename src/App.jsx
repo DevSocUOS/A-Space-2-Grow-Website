@@ -1,35 +1,47 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-function App() {
-  const [count, setCount] = useState(0)
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
+import GetInvolved from "./pages/GetInvolved";
+import MeetTheTeam from "./pages/MeetTheTeam";
+import SupportUs from "./pages/SupportUs";
+import Login from "./pages/Login"
+import Dashboard from "./pages/Dashboard";
+import Register from "./pages/Register";
+
+
+// TODO: Add Register and Dashboard + their Supabase Auth Wrapper
+// TODO: Add Helmet for Page-Specific Metadata
+
+const App = () => {
+  const location = useLocation();
+
+  const noHeaderFooterRoutes = [];
+  const hideHeaderFooter = noHeaderFooterRoutes.includes(location.pathname);
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      {!hideHeaderFooter && <Header />}
 
-export default App
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/get-involved" element={<GetInvolved />} />
+        <Route path="/team" element={<MeetTheTeam />} />
+        <Route path="/support-us" element={<SupportUs />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+
+      {!hideHeaderFooter && <Footer />}
+    </>
+  );
+};
+
+export default App;

@@ -1,0 +1,96 @@
+/* Register.css - custom styles for registration form */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.register-container {
+    max-width: 400px;
+    margin: 3rem auto;
+    padding: 2.5rem 2rem;
+    background: #f9fafb;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.register-subtitle {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+}
+
+.register-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.register-form label {
+    display: block;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0.25rem;
+}
+
+.register-form input {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #111827;
+    margin-bottom: 0.5rem;
+    transition: border-color 0.3s ease;
+}
+
+.register-form input:focus {
+    outline: none;
+    border-color: #1c6b00;
+    box-shadow: 0 0 0 3px #1d6b0045;
+}
+
+.register-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #1c6b00;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #134600;
+}
+
+.error-text{
+    margin: 0 0 0.5rem 0;
+    color: red;
+    font-size: small;
+}
+
+@media (max-width: 640px) {
+    .register-container {
+        margin: 2rem 1rem;
+        padding: 2rem 1.5rem;
+    }
+}
